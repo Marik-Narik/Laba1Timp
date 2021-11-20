@@ -12,9 +12,7 @@ namespace ShortUrl
             var getUrlOnFile = cutUrl.GetURLOnFile(Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(getCurrent))) + @"\URL.txt");
             var shortUrl = cutUrl.GetShortURL(getUrlOnFile);
             for (int i = 0; i < shortUrl.Length; i++)
-            {
                 Console.WriteLine($"{getUrlOnFile[i]} => {shortUrl[i]}");
-            }
         }
     }
 }
