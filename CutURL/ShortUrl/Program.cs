@@ -5,7 +5,7 @@ namespace ShortUrl
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var cutUrl = new CutUrl.Domain.CutUrl();
             var getCurrent = Path.GetDirectoryName(Directory.GetCurrentDirectory());
